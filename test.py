@@ -1,8 +1,8 @@
 from lol import LOL
 import asyncio
 
-API_KEY = 'K23AVG0UU8B96WR276UA'
-API_SECRET = 'PG76UNTD4AOOX3RCFNWWUXNP75NJD3HLK'
+API_KEY = 'API KEYS' # REPLACE WITH YOUR OWN API KEYS
+API_SECRET = 'API SECRET' # REPLACE WITH YOUR OWN API SECRET
 
 async def message_handler(message):
     print(f'Received message: {message}')
