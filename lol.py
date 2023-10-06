@@ -12,9 +12,9 @@ class LOL:
         self.channels = {}
 
         if TLS:
-            self.url = f"wss://ws.kolabi.pro:4000/{API_KEY}"
+            self.url = f"wss://ws.lolcorp.co.uk:4000/{API_KEY}"
         else:
-            self.url = f"ws://ws.kolabi.pro:3000/{API_KEY}"
+            self.url = f"ws://ws.lolcorp.co.uk:3000/{API_KEY}"
         self.socket = None
 
     async def connect(self):
